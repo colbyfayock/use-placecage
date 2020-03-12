@@ -80,6 +80,12 @@ export default function Index() {
         via <a href="https://www.placecage.com/">placecage.com</a>
       </p>
 
+      <p>
+        <a href="https://github.com/colbyfayock/use-placecage">
+          https://github.com/colbyfayock/use-placecage
+        </a>
+      </p>
+
       <h2>Examples</h2>
 
       <h3>Single Nick</h3>
