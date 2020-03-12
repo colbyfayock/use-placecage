@@ -83,13 +83,9 @@ export default function Index() {
         </code>
       </pre>
       <ul>
-        { nickSingle.map((c, i) => {
-          return (
-            <li key={`nickSingle-${i}`}>
-              <img width="400" height="300" src={c} loading="lazy" alt="It is Nic!" />
-            </li>
-          )
-        })}
+        <li>
+          <img width="400" height="300" src={nickSingle} loading="lazy" alt="It is Nic!" />
+        </li>
       </ul>
 
       <h3>Nick with his clones</h3>

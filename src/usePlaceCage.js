@@ -17,7 +17,7 @@ export default function usePlaceCage (settings = {}) {
     return generateCage({
       width: arguments[0],
       height: arguments[1]
-    });
+    })[0];
   }
 
   if ( Array.isArray(settings) ) {
