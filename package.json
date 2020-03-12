@@ -25,5 +25,9 @@
   },
   "bugs": {
     "url": "https://github.com/colbyfayock/use-placecage/issues"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-react": "^7.8.3"
   }
 }
