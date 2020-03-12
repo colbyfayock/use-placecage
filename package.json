@@ -1,0 +1,21 @@
+{
+  "name": "use-placecage",
+  "version": "1.0.0",
+  "description": "React hook for placecage.com",
+  "keywords": [
+    "react",
+    "hooks",
+    "react-hooks",
+    "placecage"
+  ],
+  "main": "dist/use-placecage.js",
+  "scripts": {
+    "prepublishOnly": "yarn build",
+    "build": "babel src --out-dir ."
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.7"
+  }
+}

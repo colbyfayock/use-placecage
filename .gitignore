@@ -1,0 +1,4 @@
+.next
+node_modules
+./index.js
+./usePlaceCage.js
