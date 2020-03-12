@@ -1,4 +1,4 @@
-import { usePlaceCage } from '../../';
+import { usePlaceCage } from 'use-placecage';
 
 export default function Index() {
   const nickSingle = usePlaceCage(400, 300);
