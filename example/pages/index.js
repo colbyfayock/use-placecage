@@ -13,32 +13,38 @@ export default function Index() {
     {
       width: 100,
       height: 200,
-      count: 1
+      count: 1,
+      type: 'calm'
     },
     {
       width: 110,
       height: 200,
-      count: 1
+      count: 1,
+      type: 'gif'
     },
     {
       width: 120,
       height: 200,
-      count: 1
+      count: 1,
+      type: 'gray'
     },
     {
       width: 130,
       height: 200,
-      count: 1
+      count: 1,
+      type: 'crazy'
     },
     {
       width: 140,
       height: 200,
-      count: 1
+      count: 1,
+      type: 'gif'
     },
     {
       width: 150,
       height: 200,
-      count: 1
+      count: 1,
+      type: 'crazy'
     }
   ]);
 
