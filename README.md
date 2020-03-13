@@ -1,8 +1,17 @@
-# usePlaceCage
+# 🕶 usePlaceCage
 
 React hook for placecage.com
 
 ## Getting Started
+### Install
+Add using your favorite package manager:
+```
+yarn add use-placecage
+or
+npm install use-placecage
+```
+
+### Usage
 Want to add Nick?
 ```
 const nick = usePlaceCage(400, 300);
@@ -65,3 +74,6 @@ usePlaceCage([
 //   ["https://www.placecage.com/150/200"]
 // ]
 ```
+
+## PlaceCage
+This wouldn't be a thing without https://www.placecage.com/

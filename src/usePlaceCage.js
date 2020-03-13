@@ -2,7 +2,7 @@ const PLACECAGE_HOST = 'https://www.placecage.com/';
 
 const TYPES = {
   calm: 'c',
-  gracy: 'g',
+  gray: 'g',
   crazy: 'c',
   gif: 'gif'
 };
@@ -37,8 +37,8 @@ function generateCage(settings) {
   const config = [];
 
 
-  if ( type !== DEFAULT_TYPE && TYPES.includes(type) ) {
-    config.push(type);
+  if ( type !== DEFAULT_TYPE && TYPES[type] ) {
+    config.push(TYPES[type]);
   }
 
   config.push(width, height);
