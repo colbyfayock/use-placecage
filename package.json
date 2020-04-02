@@ -12,7 +12,8 @@
   "main": "dist/use-placecage.js",
   "scripts": {
     "prepublishOnly": "yarn build",
-    "build": "babel src --out-dir ."
+    "build": "babel src --out-dir .",
+    "bump": "npm version"
   },
   "license": "MIT",
   "devDependencies": {
