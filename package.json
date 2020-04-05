@@ -9,7 +9,7 @@
     "react-hooks",
     "placecage"
   ],
-  "main": "dist/use-placecage.js",
+  "main": "index.js",
   "scripts": {
     "prepublishOnly": "yarn build",
     "build": "babel src --out-dir .",
