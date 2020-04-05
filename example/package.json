@@ -8,7 +8,8 @@
     "dev": "next",
     "develop": "yarn dev",
     "export": "next export",
-    "package": "yarn build && yarn export",
+    "package": "yarn clean && yarn build && yarn export",
+    "clean": "rimraf out && rimraf .next",
     "start": "next start"
   },
   "keywords": [],
@@ -18,6 +19,7 @@
     "next": "^9.3.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "rimraf": "^3.0.2",
     "use-placecage": "^1.0.5"
   }
 }
