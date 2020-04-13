@@ -1,7 +1,7 @@
 const PLACECAGE_HOST = 'https://www.placecage.com/';
 
 const TYPES = {
-  calm: 'c',
+  calm: null,
   gray: 'g',
   crazy: 'c',
   gif: 'gif'
